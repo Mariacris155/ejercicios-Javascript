@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let suma = window.prompt("introduce una suma: ")
+      let mas = suma.indexOf ("+")
+
+      let suma1 = suma.substring (0,mas)
+      let suma2 = suma.substring (mas+1)
+
+      console.log (`Los numeros que forman la suma son $(suma1) y $(suma2)`)
+      console.log(parseInt(suma1)+ "y" + (suma2))
+      console.log("y")
+      console.log(parseInt(suma2))
+    </script>
+</body>
+</html>
