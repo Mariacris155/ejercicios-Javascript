@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let distancia = parseInt (window.prompt("introduce distancia en metros"))
+        let horas = parseInt (window.prompt("cuanto has tardado en recorrerla? Horas"))
+        let minutos = parseInt (window.prompt("cuanto has tardado en recorrerla? Minutos"))
+        let segundos = parseInt (window.prompt("cuanto has tardado en recorrerla? Segundos"))
+
+        let ms = metros /(((horas*60)*60)+(minutos*60)+segundos)
+        let kh = metros/1000/(horas+(minutos/60)+((segundos/60)/60))
+
+        window.alert(`La velocidad ha sido de $(ms)m/s y de $(kh)km/h`)
+    </script>
+</body>
+</html>
