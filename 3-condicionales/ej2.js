@@ -1,13 +1,5 @@
-let num1 = parseInt(Window.prompt("introduce un numero"))
-let num2 = parseInt(Window.prompt("introduce otro numero"))
+let edad = parseInt(window.prompt ("cual es tu edad?"))
 
-console.log(num1+num2)
-console.log(num1-num2)
-console.log(num1*num2)
-console.log((num1+num2)/2)
-
-if (num1>num2) {
-    console.log(`$(num1) es el mayor y $(num2) es el menor`)
-} else if (num2>num1) {
-    console.log(`$(num2)es el mayor y $(num1) es el menor`)
-} else 
+edad <= 8
+? console.log ("pasa al tobogan")
+: console.log ("es mayor para el tobogan")

@@ -1,4 +1,4 @@
-let num1 = Math.abs(parseInt(window.prompt("introduce un numero")))
+let num1 = parseInt(window.prompt("introduce un numero"))
 let num2 = parseInt(window.prompt("introduce otro numero"))
 let num3 = parseInt(window.prompt("introduce un tercer numero"))
 
