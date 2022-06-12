@@ -13,4 +13,4 @@ if (num1 > num2 && num1 > num3) {
     console.log("numero 3 es el mayor")
 }
 
-  
+   

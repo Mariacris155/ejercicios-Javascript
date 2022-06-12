@@ -14,4 +14,4 @@ if (temp > 40){
 
 }else{
     console.log("vete a otro sitio mejor")
-}
+} 

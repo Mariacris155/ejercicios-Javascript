@@ -12,4 +12,4 @@ if (num1 === num2){
     num1<num2
     ? console.log(`$(num1) es el mayor`)
     : console.log(`$(num2) es el mayor`)
-}
+} 

@@ -11,3 +11,4 @@ if (bebida === "agua"){
 }else{
     console.log("Esa bebida no está en nuestro catálogo")
 }
+ 

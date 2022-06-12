@@ -14,7 +14,7 @@ if(posicion === 1) {
     console.log ("lo importante es participar")
 }
 
-switch (posicion){
+switch (posicion){ 
     case 1:
         console.log ("medalla de oro")
         break

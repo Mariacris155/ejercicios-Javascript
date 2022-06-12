@@ -10,3 +10,5 @@ if (Math.abs(num1 - num2) === 20) {
     console.log(` Entre $(num2) y $(num3) hay una diferencia de 20`)
 }else
     console.log("no hay ninguna diferencia de 20 entre los tres umeros")
+
+    

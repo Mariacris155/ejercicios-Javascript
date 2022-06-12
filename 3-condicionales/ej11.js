@@ -15,4 +15,4 @@ if( digi11 === digi21 || digi11 === digi22 || digi12 === digi21 || digi12 === di
     console.log("Hay dos digitos en comun")
 } else {
     console.log("no hay digitos en comun")
-}
+} 

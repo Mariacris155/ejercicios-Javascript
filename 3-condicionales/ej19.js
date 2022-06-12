@@ -16,4 +16,4 @@ if (final === 10) {
     window.alert("suficiente")
 }else if (final >= 0 && final > 5) {
     window.alert("suspenso")
-}
+} 

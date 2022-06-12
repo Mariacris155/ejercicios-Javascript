@@ -8,3 +8,4 @@ if (dia === "lunes" || dia === "martes" || dia === "miercoles" || dia === "miér
     console.log("eso no es un dia de la semana")
 }
 
+ 
