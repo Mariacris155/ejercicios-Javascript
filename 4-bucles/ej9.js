@@ -1,10 +1,9 @@
-for (n = 1; n<=12; n++){
-    
+for (let i = 1; i<=12; i++){
+    let resultado = 0
+
+ i % 2 === 0   
+ ? resultado = i **3
+ : resultado = i **2
 }
 
-while (n){
-    console.log (n**2)
-}
-while (n++){
-    console.log(n++**3)
-}
+console.log (`${i} ---- ${resultado}`)

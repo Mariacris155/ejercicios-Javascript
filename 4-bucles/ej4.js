@@ -1,5 +1,10 @@
 let num = parseInt(window.prompt("introduce un numero"))
 
+let suma = 0
+
 for(let num = 0; num <= 10; num++){
-    console.log((num*10)/10)
+   suma = suma + parseInt(window.prompt("introduce un numero"))
+
+   
 }
+console.log(suma/10)

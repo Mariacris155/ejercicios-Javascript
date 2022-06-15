@@ -1,17 +1,14 @@
-let num = parseInt(window.prompt("introduce un numero"))
 
+let suma = 0
 
-while ( num = -1)
-    console.log("los valores negativos se ignorarán")
+do{
 
+    let num = parseInt(window.prompt("introduce un numero"))
 
-for (let a = 1; a < num; a++)
-console.log(a+1)
+    num > 0
+    ? suma += num
+    : num === 0
+     ? window.alert(suma)
+     : window.alert("no se aceptan numeros negativos")
 
-do {
-    console.log(num ≠ 0)
-}
-
-while (num = 0){
-    console.log(num++)
-}
+}while (num ≠ 0)
