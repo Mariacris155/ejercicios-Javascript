@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "suma"></p>
+    <p id = "resta"></p>
+    <p id = "multiplicacion"></p>
+    <p id = "division"></p>
+    <p id = "resto"></p>
+    <script>
+        let operacion = window.prompt(`introduce una operacion:
+1-suma, 
+2-resta 
+3-multiplicacion
+4-division
+5-resto`)
+
+if (operacion === "1") {
+    let numero1 = parseInt (window.prompt("introduce un numero"))
+    let numero2 = parseInt (window.prompt("introduce otro numero"))
+    document.getElementById("suma").innerHTML = (("numero1") + ("numero2") + (numero1 + numero2))
+    
+}else if(operacion === "2"){
+    let numero1 = parseInt (window.prompt("introduce un numero"))
+    let numero2 = parseInt (window.prompt("introduce otro numero"))
+    document.getElementById("resta").innerHTML = (("numero1") + ("numero2") + (numero1 - numero2))
+    
+}else if(operacion === "3"){
+    let numero1 = parseInt (window.prompt("introduce un numero"))
+    let numero2 = parseInt (window.prompt("introduce otro numero"))
+    document.getElementById("multiplicacion").innerHTML = (("numero1") + ("numero2") + (numero1 * numero2))
+
+}else if(operacion === "4"){
+    let numero1 = parseInt (window.prompt("introduce un numero"))
+    let numero2 = parseInt (window.prompt("introduce otro numero"))
+    document.getElementById("division").innerHTML = (("numero1") + ("numero2") + (numero1 / numero2))
+
+}else if(operacion === 5){
+    let numero1 = parseInt (window.prompt("introduce un numero"))
+    let numero2 = parseInt (window.prompt("introduce otro numero"))
+    document.getElementById("resto").innerHTML = (("numero1") + ("numero2") + (numero1 % numero2))
+}
+
+
+
+
+    </script>
+</body>
+</html>

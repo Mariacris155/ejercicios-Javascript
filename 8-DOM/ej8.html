@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let newDiv = document.createElement(div)
+        let edad = window.prompt("introduce tu edad")
+
+if (edad >= 18){
+    let carnet = window.prompt("¿Tienes carnet de conducir?").toLowerCase ()
+    if (carnet = "si"){
+        let persona = window.prompt("introduce tu nombre y apellidos")
+        let ciudad = window.prompt("¿donde quieres recoger el coche?")
+        let duracion = window.prompt("¿cuantos dias quieres el coche?")
+        let semanas = parseInt(duracion/7)
+
+        newDiv.innerHTML = <p> "(`correcto: $(persona). Puedes recoger tu coche en $(ciudad) para los proximos $(duracion) dias
+        El coste del alquiler sera de ${semanas>1} semanas *150 + (duracion - semanas*7)*25) : duracion*25)`)"</p>
+    }else {
+        newDiv.innerHTML = <p>("No puedes alquilar sin carnet de conducir")</p>
+    }
+} else {
+    newDiv.innerHTML = <p>("No puedes alquilar siendo menor de edad")</p>
+ }
+ document.body.appendChild(newDiv)
+    </script>
+</body>
+</html>

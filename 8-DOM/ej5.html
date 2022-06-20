@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "suma"></p>
+    <p id = "resta"></p>
+    <p id = "multiplicacion"></p>
+    <p id = "division"></p>
+    <p id = "resto"></p>
+    <script>
+        let numero1 = parseInt (window.prompt("introduce un numero"))
+        let numero2 = parseInt (window.prompt("introduce otro numero"))
+
+
+        document.getElementById("suma").innerHTML = (("numero1") + ("numero2") + (numero1 + numero2))
+        document.getElementById("suma").style.color = "black"
+        document.getElementById("suma").style.background-color = "white"
+
+        document.getElementById("resta").innerHTML = (("numero1") + ("numero2") + (numero1 - numero2)) 
+        document.getElementById("resta").style.color = "white"
+        document.getElementById("resta").style.background-color = "black"
+
+        document.getElementById("multiplicacion").innerHTML = (("numero1") + ("numero2") + (numero1 * numero2)) 
+        document.getElementById("multiplicacion").style.color = "yellow"
+        document.getElementById("multiplicacion").style.background-color = "blue"
+
+        document.getElementById("division").innerHTML = (("numero1") + ("numero2") + (numero1 / numero2)) 
+        document.getElementById("division").style.color = "blue"
+        document.getElementById("division").style.background-color = "yellow"
+
+        document.getElementById("resto").innerHTML = (("numero1") + ("numero2") + (numero1 % numero2))
+        document.getElementById("resto").style.color = "green"
+        document.getElementById("resto").style.background-color = "purple"
+
+
+    </script>
+</body>
+</html>
