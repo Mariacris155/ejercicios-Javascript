@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let newDiv = document.createElement('div')
+        let numero = parseInt (window.prompt("introduce un numero"))
+
+        newDiv.innerHTML = numero
+
+        document.body.appendChild(newDiv)
+
+        if (numero < 100){
+            document.style.color = "green"
+        }else if (numero === 100 && numero === 200){
+            document.style.color = "yellow"
+        }else if (numero > 200){
+            document.style.color = "red"
+        }
+
+
+    </script>
+</body>
+</html>
