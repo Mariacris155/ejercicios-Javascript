@@ -1,12 +1,18 @@
 let num1 = parseInt(window.prompt("introduce un numero"))
 let num2 = parseInt(window.prompt("introduce otro numero"))
 
-if (arg2 != 0)
-function divisionfunc(arg1, arg2) {
-    num3 = arg1 / arg2
+do (arg2 != 0)
 
-}else {
-    console.log("no se puede dividir")
-}
+
+} while  (num2 != 0)
+
+
+
+
+
+function divisionfunc(arg1, arg2) {
+    return = arg1 / arg2
+
+
 
 window.alert(num3)
